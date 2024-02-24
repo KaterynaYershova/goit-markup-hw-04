@@ -308,15 +308,21 @@ img {
 .social-list {
   display: flex;
   justify-content: center;
-  column-gap: 12px;
+  gap: 24px;
+}
+
+.social-list-item {
+  width: 40px;
+  height: 40px;
 }
 
 .social-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
+
   border-radius: 50%;
   background-color: #4d5ae5;
   stroke: #f4f4fd;
@@ -330,7 +336,7 @@ img {
 }
 
 .social-list-icon {
-  fill: none;
+  fill: #f4f4fd;
 }
 
 /* =========== /Team Section styles =========== */
